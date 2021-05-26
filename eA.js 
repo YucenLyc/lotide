@@ -1,0 +1,23 @@
+function eqArrays (array1,array2) {
+  let result = false;
+
+  if (array1.length != array2.length){
+    return false;
+  }
+  for(let i = 0; i < array1.length; i++){
+
+    if(array1.slice(i) != array2.slice(i)){
+
+     result = false;
+     console.log(result);
+
+    } else {
+
+     result = true; 
+     console.log(result);
+
+    }
+  }
+  return result;
+}
+assertEqual(eqArrays(["1","2", "3", "4"], ["1","2", "3", "4"]), true);
