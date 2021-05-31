@@ -1,5 +1,5 @@
 //map function will take in 2 arguments + a callback function 
-//this function will return a new array baed on the results of the callback function 
+//this function will return a new array based on the results of the callback function 
 
 const words = ["ground", "control", "to", "major", "tom"];
 const sentences = ["Hello world", "Today is a sunny day", "I had too much coffee"];
