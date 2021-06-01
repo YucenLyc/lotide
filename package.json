@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@yucenlyc/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a mini version of the lodash JavaScript library, created to practice various functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "mocha",
     "chai"
   ],
-  "author": "",
+  "author": "yucenLiu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/YucenLyc/lotide/issues"

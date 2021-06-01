@@ -1,4 +1,3 @@
-// return all the indices (zero-based positions) in the string where each character is found 
 
 const letterPositions = function (sentence) {
   const result = {};
@@ -14,5 +13,6 @@ const letterPositions = function (sentence) {
   }
 
   return result;
-}
-//console.log(letterPositions("hello world"))
+};
+
+module.exports = letterPositions;
